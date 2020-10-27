@@ -1,0 +1,66 @@
+body {
+	background-color: #fffbf7;
+}
+.title {
+	font-size: 4rem;
+	color: #8b8b8bcc;
+	text-align: left;
+	width: 50%;
+	margin: 5rem auto;
+}
+
+.description {
+	color: #46484c;
+	margin: 2rem auto 7rem;
+	text-align: center;
+	width: 80%;
+	font-size: 2rem;
+}
+
+.description span {
+	font-weight: 700;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+form {
+	background: #fff;
+	margin: 2rem 0px;
+	border-radius: 15px;
+	padding: 1rem;
+	background-color: #fff;
+}
+form h1.title {
+	color: #46484c;
+	text-align: center;
+	margin: 1rem auto;
+	font-size: 3rem;
+}
+
+form .group {
+	margin: 1rem 0px;
+}
+
+.group label {
+	font-size: 2rem;
+	margin-right: 10px;
+}
+.group input {
+	font-size: 2rem;
+	border: solid black 2px;
+	border-radius: 10px;
+}
+
+button {
+	background-color: #025157;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 1rem;
+	border: none;
+	border-radius: 10px;
+}
