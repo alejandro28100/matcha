@@ -1,6 +1,35 @@
 body {
 	background-color: #fffbf7;
 }
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 10px;
+}
+header img {
+	width: 200px;
+}
+header ul {
+	flex: 1;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+header ul li {
+	margin: 0px 10px;
+}
+
+header ul li button {
+	background-color: #025157;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 1rem;
+	border: none;
+	border-radius: 10px;
+}
 .title {
 	font-size: 4rem;
 	color: #8b8b8bcc;
@@ -30,33 +59,37 @@ img {
 
 form {
 	background: #fff;
-	margin: 2rem 0px;
+	margin: 6rem 6rem;
 	border-radius: 15px;
-	padding: 1rem;
+	padding: 2rem 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background-color: #fff;
 }
 form h1.title {
 	color: #46484c;
 	text-align: center;
 	margin: 1rem auto;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 form .group {
+	display: flex;
 	margin: 1rem 0px;
 }
-
 .group label {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-right: 10px;
 }
 .group input {
-	font-size: 2rem;
+	flex: 1;
+	padding: 5px;
+	font-size: 1rem;
 	border: solid black 2px;
-	border-radius: 10px;
 }
 
-button {
+form button {
 	background-color: #025157;
 	padding: 10px 15px;
 	color: #fff;
